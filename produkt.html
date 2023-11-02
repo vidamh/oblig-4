@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Produkt</title>
+</head>
+<body>
+    <div id="grid-container-produktside">
+        <header class="hovedmeny">
+            <nav class="meny">
+                <section class="venstre">
+                    <aside class="hamburgermeny">
+                        <ul>
+                            <li>
+                                <i class="glyphicon glyphicon-menu-hamburger"></i>
+                            </li>
+                        </ul>
+                    </aside>
+                    <section class="logo-navbar">
+                        <span>
+                            <a href="index.html" class="logo">Logo</a>
+                        </span>
+                        <nav class="navbar">
+                            <ul>
+                                <li>
+                                    <a href="produktresultater.html">Kvinner</a>
+                                </li>
+                                <li>
+                                    <a href="produktresultater.html">Menn</a>
+                                </li>
+                                <li>
+                                    <a href="produktresultater.html">Barn</a>
+                                </li>
+                                <li>
+                                    <a href="produktresultater.html">Nytt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </section>
+                </section>
+                <section class="høyre">
+                <nav class="navikoner">
+                    <ul class="navikoner2">
+                        <li>
+                            <form class="søkebaren">
+                                <section class="søkebarikoner">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                    <input type="text" class="input-field" placeholder="Søk produkter her">
+                                </section>
+                            </form>
+                        </li>
+                        <li class="mobilsøk"><i class="glyphicon glyphicon-search"></i></li>
+                        <li><i class="glyphicon glyphicon-heart"></i></li>
+                        <li><i class="glyphicon glyphicon-shopping-cart"></i></li>
+                        <li><i class="fa fa-user"></i></li>
+                    </ul>
+                </nav>
+                </section>
+            </nav>
+        </header>
+        <main id="produktside">
+            <nav class="sideinformasjon">
+                <ul class="her_er_du">
+                    <li><a href="index.html" class="navigasjon-btn">Hjem -</a></li>
+                    <li><a href="produktresultater.html" class="navigasjon-btn">Sko -</a></li>
+                    <li><a href="produktresultater.html" class="navigasjon-btn">Dame -</a></li>
+                    <li><a href="produkt.html" class="navigasjon-btn">Praesent</a></li>
+                </ul>
+            </nav>
+            <section id="produkt">
+                <section id="produktcontainer">
+                    <section id="produktinfo">
+                        <section class="produktbilde_ikoner">
+                            <img src="img/sneakers_merke.jpg" alt="Product image for sneakers">
+                            <span class="sidepiler">
+                                <button class="sidepil-venstre">
+                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                </button>
+                                <button class="sidepil-høyre">
+                                    <i class="glyphicon glyphicon-chevron-right"></i>
+                                </button>
+                            </span>
+                            <span class="hjerte">
+                                <button class="favorittprodukt">
+                                    <i class="glyphicon glyphicon-heart"></i>
+                                </button>
+                            </span>
+                        </section>
+                        <section class="detaljer-anmeldelser-desktop">
+                            <ul class="detaljer-anmeldelser-li">
+                                <li class="dytt1"><button class="drop-down-btn">Produktdetaljer <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                                <li class="dytt2"><button class="drop-down-btn">Anmeldelser <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="produktvalg">
+                        <section class="produkttekst">
+                            <ul class="produkttekstli">
+                                <li><h2>Praesent</h2></li>
+                                <li id="desktopinfo"><p id="desktoptekst">Aliquam ut turpis varius, efficitur justo a</p></li>
+                                <li><p id="pris">2000,-</p></li>
+                            </ul>
+                        </section>
+                        <section class="fargevalg">
+                            <ul id="fargeprodukt">
+                                <li class="fargeknapp"><button id="farge">Farge: Hvit</button></li>
+                            </ul>
+                            <ul class="fargevalgli">
+                                <li class="valg"><button class="farge-btn"><i class="fa fa-check-circle"></i></button></li>
+                                <li class="valg"><button class="farge-btn"></button></li>
+                                <li class="valg"><button class="farge-btn"></button></li>
+                            </ul>
+                        </section>
+                        <section class="andrevalgprodukt">
+                            <ul class="andrevalgli">
+                                <li class="dytt1"><button class="drop-down-btn">Størrelse <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                                <li><button class="handlekurv-btn">Legg til i kurv<i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                                <li><button class="favoritt-btn" id="favoritterdesktop">Lagre i favoritter<i class="glyphicon glyphicon-heart"></i></button></li>
+                                <li><button class="tilgjengelighet">Tilgjengelighet:<i class="glyphicon glyphicon-ok"></i></button></li>
+                            </ul>
+                        </section>
+                        <section class="fraktdetaljer">
+                            <ul class="frakt">
+                                <li><h3>Leveres innen 2 - 3 arbeidsdager</h3></li>
+                                <li><a href="#" class="frakt-info">Les mer om frakt, retur og bytte her</a></li>
+                            </ul>
+                        </section>
+                        <section class="detaljer-anmeldelser">
+                            <ul class="detaljer-anmeldelser-li">
+                                <li><button class="drop-down-btn">Produktdetaljer <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                                <li class="dytt2"><button class="drop-down-btn">Anmeldelser <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                            </ul>
+                        </section>
+                    </section>
+                </section>    
+            </section>
+        </main>
+        <footer class="fremhev-produkt">
+            <section class="fremhevede-produkter">
+                <h2>Lignende produkter</h2>
+                <ul class="produkterfremhevetliste">
+                    <li class="førsteprodukt">
+                        <article class="selveprodukt1">
+                            <a href="#">
+                                <img src="img/placeholder.svg" alt="Product image for Converse">
+                                <h3>Vestibulum</h3>
+                                <p>2000 kr</p>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="andreprodukt">
+                        <article class="selveprodukt2">
+                            <a href="#">
+                                <img src="img/placeholder.svg" alt="Placeholder image for products">
+                                <h3>Suspendisse</h3>
+                                <p>1000 kr</p>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="tredjeprodukt">
+                        <article class="selveprodukt3">
+                            <a href="#">
+                                <img src="img/placeholder.svg" alt="Placeholder image for products">
+                                <h3>Etiam</h3>
+                                <p>1000 kr</p>
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+                <section class="sidepiler">
+                    <span class="sidepiler-produkter">
+                        <a href="#" class="sidepil-venstre" style="color: #000">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                        </a>
+                        <a href="#" class="sidepil-høyre" style="color: #000">
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </a>
+                    </span>
+                </section>
+            </section>
+            <section class="fremhevede-produkter">
+                <h2>Anbefalte produkter</h2>
+                <ul class="produkterfremhevetliste">
+                    <li class="førsteprodukt">
+                        <article class="selveprodukt1">
+                            <a href="#">
+                                <img src="img/placeholder.svg" alt="Product image for pink heels">
+                                <h3>Curabitur</h3>
+                                <p>2300 kr</p>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="andreprodukt">
+                        <article class="selveprodukt2">
+                            <a href="#">
+                                <img src="img/placeholder.svg" alt="Placeholder image for products">
+                                <h3>Vivamus</h3>
+                                <p>9000 kr</p>
+                            </a>
+                        </article>
+                    </li>
+                    <li class="tredjeprodukt">
+                        <article class="selveprodukt3">
+                            <a href="#">
+                                <img src="img/placeholder.svg" alt="Placeholder image for products">
+                                <h3>Nunc aliquam</h3>
+                                <p>1200 kr</p>
+                            </a>
+                        </article>
+                    </li>
+                </ul>
+                <section class="sidepiler">
+                    <span class="sidepiler-produkter">
+                        <a href="#" class="sidepil-venstre" style="color: #000">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                        </a>
+                        <a href="#" class="sidepil-høyre" style="color: #000">
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </a>
+                    </span>
+                </section>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
