@@ -934,6 +934,47 @@ article .favorittprodukt{
     background-color: var(--lyseblå);
 }
 
+/* Analyse */
+
+/* CSS-styling for tabell hentet den 5. november 2023 fra dev.to laget av Dom (dcode) fra nettsiden:
+https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
+.tabell-sammenligning{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tabell-sammenligning thead tr {
+    background-color: #5190ca;
+    color: #ffffff;
+    text-align: left;
+}
+
+.tabell-sammenligning th,
+.tabell-sammenligning td {
+    padding: 12px 15px;
+}
+
+.tabell-sammenligning tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.tabell-sammenligning tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tabell-sammenligning tbody tr:last-of-type {
+    border-bottom: 2px solid #5190ca;
+}
+
+.tabell-sammenligning tbody tr.active-row {
+    font-weight: bold;
+    color: #5190ca;
+}
+
 /* Desktop styles */
 
 @media only screen and (min-width: 800px){

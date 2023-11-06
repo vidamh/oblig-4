@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Forside</title>
+    <title>Analyse</title>
 </head>
 <body>
     <div id="grid-container">
@@ -67,11 +67,261 @@
             </nav>
         </header>
         <main>
-            <section>
-              
+            <section id="intro">
+              <h1>
+                Analyse av nettsider fra oblig 3
+              </h1>
+                <section id="Google-trends">
+                    <h2>
+                        Nøkkelord undersøkelse fra Google Trends
+                    </h2>
+                    <p>Jeg har brukt Google Trends for å identifisere søkeord som er relevante for skobutikken. <br>
+                        Under ser man søkeord jeg har valgt å fremheve og hvorfor.
+                    </p>
+                    <ul id="skonøkkelord">
+                        <li>
+                            <h3>Sko</h3>
+                            <p>
+                                I følge Google Trends er "sko" en av de mest relevante søkeordene for skobutikken. <br>
+                                "Sko" er jo et søkeord som er viktig for alle skobutikker i Norge. <br>
+                                Ordet blir søkt på ofte og jevnlig gjennom hele året. <br>
+                                I tillegg er "sko" relevant for skobutikkens geografiske målgruppe, altså Norge og nordmenn. <br>
+                            </p>
+                            <img src="img_analyse/sko1.png" alt="Søkeordet Sko på Google Trends">
+                        </li>
+                        <li>
+                            <h3>Vintersko</h3>
+                            <p>
+                                Vintersko er et søkeord som er viktig å bruke rundt vintersesongen. <br>
+                                Man ser nemlig på Google Trends at mange søker etter vintersko på denne tiden av året. <br>
+                                Vintersko har faktisk fått en "spike" i trafikk rundt vintertid de siste 5 årene. <br>
+                                Søkeordet er derfor populært å søke etter på den årstiden, og slik er søkeordet relevant. <br>
+                                Skobutikken har i tillegg Norge som sin geografiske målgruppe. <br>
+                                I Norge er varme sko om vinteren et behov, og dette søkeordet burde skobutikken ta nytte av. <br>
+                            </p>
+                            <img src="img_analyse/vintersko.png" alt="Søkeordet Vintersko på Google Trends">
+                        </li>
+                        <li>
+                            <h3>Boots</h3>
+                            <p>
+                                Boots er et søkeord som er ganske populært i Norge. <br>
+                                Google Trends viser at Boots blir søkt på oftest om høsten og vinteren. <br>
+                                Denne trenden ble mer populært fra 2021 og utover. <br>
+                                Skobutikken burde utnytte populæriteten av denne skotypen under de årstidene. <br>
+                                Dette søkeordet kan gi god trafikk til nettbutikken og er derfor relevant.
+                            </p>
+                            <img src="img_analyse/boots.png" alt="Søkeordet Boots på Google Trends">
+                        </li>
+                        <li>
+                            <h3>Sneakers</h3>
+                            <p>
+                                Sneakers er et søkeord som er viktig året rundt. <br>
+                                Google Trends viser at søkeordet Sneakers er mer populært enn Joggesko i Norge. <br>
+                                Andre resultater forteller også at Sneakers får mye trafikk året rundt, <br>
+                                med en liten avtagning rundt vinter. Sneakers har ganske stabil populæritet og trafikk.<br>
+                                Dette søkeordet er relevant for nettsiden på grunn av den stabile trafikken.
+                            </p>
+                            <img src="img_analyse/sneakers.png" alt="Søkeordet Sneakers på Google Trends">
+                            <img src="img_analyse/joggesko_vs_sneakers.png" alt="Søkeordet Sneakers og Joggesko på Google Trends">
+                        </li>
+                    </ul>
+                </section>
+                <section id="Lighthouse">
+                    <h2>
+                        SEO analyse ved bruk av Lighthouse
+                    </h2>
+                    <p>Jeg har brukt Lighthouse for å analysere SEO av nettsidene til skobutikken. <br>
+                        Under ser man resultatene av Lighthouse analysene av SEO.
+                    </p>
+                    <ul id="LighthouseSEO">
+                        <li>
+                            <h3>Forside</h3>
+                            <p>
+                                Lighthouse analysen av forsiden både på mobile og desktop ga gode SEO resultater. <br>
+                                Desktop fikk en score på 90 SEO, mens mobile fikk en score på 92 SEO. <br>
+                                Tilbakemeldingen på begge var at html-filen manglet en meta description.
+                            </p>
+                            <h4>Resultater for Lighthouse SEO for desktop</h4>
+                            <img src="img_analyse/forsidedesktopseo2.png" alt="Lighthouse SEO resultater for index.html desktop">
+                            <h4>Resultater for Lighthouse SEO for mobil</h4>
+                            <img src="img_analyse/forsidemobileseo.png" alt="Lighthouse SEO resultater for index.html mobile">
+                        </li>
+                        <li>
+                            <h3>Produktresultater</h3>
+                            <p>
+                                Lighthouse analysen av produktresultater på desktop og mobile fikk en score på 90 og 89. <br>
+                                Desktop fikk en score på 90 SEO og fikk kun tilbakemelding om at den mangler meta description. <br>
+                                Mobile fikk en score på 89 SEO og mangler meta description. <br>
+                                I tillegg syntes Lighthouse at favoritt-hjertene på mobile versjonen er for små.
+                            </p>
+                            <h4>Resultater for Lighthouse SEO for desktop</h4>
+                            <img src="img_analyse/produktresultaterdesktopseo.png" alt="Lighthouse SEO resultater for produktresultater.html desktop">
+                            <h4>Resultater for Lighthouse SEO for mobil</h4>
+                            <img src="img_analyse/produktresultatermobileseo.png" alt="Lighthouse SEO resultater for produktresultater.html mobile">
+                        </li>
+                        <li>
+                            <h3>Produkter</h3>
+                            <p>
+                                Lighthouse analysen av produktsiden på desktop og mobile fikk en score på 90 og 92. <br>
+                                Mobile fikk en score på 92, mens desktop fikk en score på 90. <br>
+                                Både desktop og mobile fikk tilbakemelding om at de mangler en meta description, men ikke noe annet.
+                            </p>
+                            <h4>Resultater for Lighthouse SEO for desktop</h4>
+                            <img src="img_analyse/produktdesktopseo.png" alt="Lighthouse SEO resultater for produkt.html desktop">
+                            <h4>Resultater for Lighthouse SEO for mobil</h4>
+                            <img src="img_analyse/produktmobileseo.png" alt="Lighthouse SEO resultater for produkt.html mobile">
+                        </li>
+                    </ul>
+                </section>
+                <section id="Webaim">
+                    <h2>
+                        UU analyse ved bruk av Webaim
+                    </h2>
+                    <ul id="webaim-analyse">
+                        <li>
+                            <h3>Forside</h3>
+                            <p>
+                                Forsidens resultater fra Webaim ga 7 errors, 1 contrast error og 12 alerts. <br>
+                                Contrast erroren peker på teksten "Se høstkolleksjonen 2023!". <br>
+                                De ønsker at teksten har en farge som kontraster mer med bakgrunnen, <br>
+                                eller at teksten har en bakgrunnsfarge for å øke lesbarheten. <br>
+                                De sier at søkebaren mangler en form label, og ellers er alertene relatert til <br>
+                                at nettsiden har manglende funksjonalitet.
+                            </p>
+                            <img src="img_analyse/webaimforside1.png" alt="UU analyse av Webaim på forside">
+                            <img src="img_analyse/webaimforside2.png" alt="UU analyse av Webaim på forside">
+                        </li>
+                        <li>
+                            <h3>Produktresultater</h3>
+                            <p>
+                                Produktresultatsidens resultater fra Webaim ga 10 errors, 0 contrast error og 18 alerts. <br>
+                                De sier at søkebaren mangler en form label, og ellers er errorene relatert til <br>
+                                at nettsiden har manglende funksjonalitet. Alertene sier at siden mangler en h1, <br>
+                                at det er "redundant links" og at det er noen steder med "possible headings".
+                            </p>
+                            <img src="img_analyse/webaimproduktresultater1.png" alt="UU analyse av Webaim på produktresultater">
+                            <img src="img_analyse/webaimproduktresultater2.png" alt="UU analyse av Webaim på produktresultater">
+                        </li>
+                        <li>
+                            <h3>Produkt</h3>
+                            <p>
+                                Produktsidens resultater fra Webaim ga 11 errors, 0 contrast error og 13 alerts. <br>
+                                De sier at søkebaren mangler en form label, og ellers er errorene relatert til <br>
+                                at nettsiden har manglende funksjonalitet. Alertene sier at siden mangler en h1, <br>
+                                at det er "redundant links" og at det er noen steder med "possible headings".
+                            </p>
+                            <img src="img_analyse/webaimprodukt1.png" alt="UU analyse av Webaim på produktside">
+                            <img src="img_analyse/webaimprodukt2.png" alt="UU analyse av Webaim på produktside">
+                        </li>
+                    </ul>
+                </section>
+                <section id="Chat-GPT">
+                    <h2>
+                        SEO og UU analyse ved bruk av ChatGPT
+                    </h2>
+                    <ul id="chatGPT-analyser">
+                        <li>
+                            <h3>Forside</h3>
+                            <p>
+                                UU analysen sier at nettsiden er bra strukturert, og at UU er bra. <br>
+                                Mesteparten av kritikken er rettet mot at siden ikke er helt funksjonell, <br>
+                                som for eksempel at linkene peker til samme sted, eller at knappene ikke gjør noe. <br>
+                                Annet enn det kommenterer ChatGPT på UU analysen at det noen steder er brukt inline styling. <br>
+                                SEO analysen sier at title-taggen kan være mer deskriptiv, at det ikke er noen meta tags, <br>
+                                at linker peker til samme sted, at koden ikke har "internal anchor links", <br>
+                                og at det ikke er noe structured data som Schema. <br>
+                                Oppsummeringen til ChatGPT sier at HTML koden har bra struktur for UU, <br>
+                                og har SEO-vennlige elementer. ChatGPT sier at det er noen ting som kan forbedres relatert til SEO.
+                            </p>
+                            <h4>Tilbakemelding på UU</h4>
+                            <img src="img_analyse/forsidechatgptUU.png" alt="UU analyse av ChatGPT på forside">
+                            <h4>Tilbakemelding på SEO</h4>
+                            <img src="img_analyse/forsidechatgptSEO.png" alt="SEO analyse av ChatGPT på forside">
+                        </li>
+                        <li>
+                            <h3>Produktresultater</h3>
+                            <p>
+                                UU analysen sier at nettsiden har bra UU, og kommentarene er veldig likt som til forsiden. <br>
+                                Altså kommenterer ChatGPT på manglende funksjonalitet på knapper, linker som sender til samme sted, <br>
+                                og at noen steder har det blitt brukt inline styling. <br>
+                                SEO analysen er ganske lik som for forsiden; resultatene sier at det mangler meta tags, <br>
+                                internal links og structured data. <br>
+                                Oppsummeringen til ChatGPT sier at UU er bra og at det er noen SEO-vennlige elementer. <br>
+                                Fremhevede kommentarer er å bruke deskriptive title tags, meta tags og structured data.
+                            </p>
+                            <h4>Tilbakemelding på UU</h4>
+                            <img src="img_analyse/produktresultaterchatgptUU.png" alt="UU analyse av ChatGPT på produktresultater">
+                            <h4>Tilbakemelding på SEO</h4>
+                            <img src="img_analyse/produktresultaterchatgptSEO.png" alt="SEO analyse av ChatGPT på produktresultater">
+                        </li>
+                        <li>
+                            <h3>Produktside</h3>
+                            <p>
+                                UU analysen sier det samme som på de andre sidene, som at linker fører til samme sted og <br>
+                                at noen av bildene er placeholder bilder. Den nevner også at noen av knappene gir god interaktivitet <br>
+                                og opplevelse for brukere, som produkt-detaljer knappen og handlekurv-knappen. <br>
+                                SEO analysen har den samme tilbakemeldingen som de andre sidene, altså at det mangler <br>
+                                meta tags, title tagen burde være mer deskriptiv, og at det ikke er noe structured data. <br>
+                                Oppsummeringen til ChatGPT sier at UU er bra og har SEO-vennlige elementer. <br>
+                                Allikevel sier ChatGPT at koden trenger deskriptive titler og meta tags. <br>
+                                Andre kommentarer er relatert til at nettsiden mangler funksjonalitet.
+                            </p>
+                            <h4>Tilbakemelding på UU</h4>
+                            <img src="img_analyse/produktchatgptUU.png" alt="UU analyse av ChatGPT på produktside">
+                            <h4>Tilbakemelding på SEO</h4>
+                            <img src="img_analyse/produktchatgptSEO.png" alt="SEO analyse av ChatGPT på produktside">
+                        </li>
+                    </ul>
+                </section>
+                <section id="sammenligning">
+                    <h2>
+                        Sammenligning av resultater
+                    </h2>
+                    <!--HTML kode for tabell hentet den 5. november 2023 fra dev.to laget av Dom (dcode) fra nettsiden:
+                         https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l-->
+                    <table class="tabell-sammenligning">
+                        <thead>
+                            <tr>
+                                <th> </th>
+                                <th>Webaim</th>
+                                <th>Lighthouse</th>
+                                <th>ChatGPT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SEO</td>
+                                <td>6000</td>
+                                <td>6000</td>
+                                <td>6000</td>
+                            </tr>
+                            <tr class="active-row">
+                                <td>UU</td>
+                                <td>6000</td>
+                                <td>6000</td>
+                                <td>6000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
             </section>
-            <section>
-                
+            <section id="forbedring">
+                <h1>Forbedrende tiltak etter analyser</h1>
+                <section id="Lighthouse">
+                    <h2>
+                        SEO analyse ved bruk av Lighthouse
+                    </h2>
+                </section>
+                <section id="Webaim">
+                    <h2>
+                        UU analyse ved bruk av Webaim
+                    </h2>
+                </section>
+                <section id="Chat-GPT">
+                    <h2>
+                        SEO og UU analyse ved bruk av ChatGPT
+                    </h2>
+                </section>
             </section>
         </main>
         <footer>
