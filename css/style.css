@@ -176,7 +176,7 @@ https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-t
     background: var(--mørkeblå);
 }
 
-#circle h2{
+#circle h1{
     font-size: 6.133vw;
     font-weight: 500;
 }
@@ -201,13 +201,20 @@ https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-t
 
 .sentrerttoppbilde{
     position:absolute;
-    top: 10%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 300;
     font-size: 6.667vw;
     white-space: nowrap;
   }
+
+  #høstkolleksjon{
+    color: white;
+    background-color: rgb(44 34 31 / 75%);
+    border-radius: 50px;
+    padding: 0px 20px;
+}
 
 .sentrertbunnknapp .kategori-btn{
     position:absolute;
@@ -405,10 +412,11 @@ https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-t
     padding: 5px 5px 0px 5px;
 }
 
-.produkterfremhevetliste p{
+.produkterfremhevetliste h4{
     text-decoration: none;
     color: #000;
     font-size: 4.800vw;
+    font-weight: 400;
     padding: 0px 5px 0px 5px;
 }
 
@@ -618,13 +626,13 @@ article .favorittprodukt{
     display: flex;
     justify-content: right;
     position: absolute;
-    bottom: 15%;
+    bottom: 12.5%;
     right: 5%;
     transform: translate(-15, -5);
 }
 
 .favorittprodukt .glyphicon-heart{
-    font-size: 5.333vw;
+    font-size: 8vw;
 }
 
 /* Produktresultater tredje del */
@@ -747,13 +755,14 @@ article .favorittprodukt{
 
 #pris{
     font-size: 6.667vw;
+    font-weight: 400;
 }
 
 .produkttekstli #desktopinfo{
     display: none;
 }
 
-.produkttekstli h2{
+.produkttekstli h1{
     font-size: 8vw;
 }
 
@@ -974,8 +983,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
     font-weight: bold;
     color: #5190ca;
 }
-/* CSS-styling for tabell hentet den 5. november 2023 fra dev.to laget av Dom (dcode) fra nettsiden:
-https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
+
 
 
 /* Desktop styles */
@@ -1087,7 +1095,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         min-width: 2.139vw;
     }
       
-    .input-field {
+    #input-field {
         width: 100%;
         padding: 0.535vw;
         text-align: left;
@@ -1155,7 +1163,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         background: var(--mørkeblå);
     }
     
-    #circle h2{
+    #circle h1{
         font-size: 2.674vw;
         font-weight: 500;
     }
@@ -1182,13 +1190,20 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
     
     .sentrerttoppbilde{
         position:absolute;
-        top: 12%;
-        left: 50%;
+        top: 13.5%;
+        left: 52.5%;
         transform: translate(-50%, -50%);
         font-weight: 300;
         font-size: 4.011vw;
         white-space: nowrap;
       }
+
+    #høstkolleksjon{
+        color: white;
+        background-color: rgb(44 34 31 / 75%);
+        border-radius: 50px;
+        padding: 0px 20px;
+    }
     
     .sentrertbunnknapp .kategori-btn{
         position:absolute;
@@ -1385,7 +1400,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         padding: 0.334vw 0.334vw 0px 0.334vw;
     }
     
-    .produkterfremhevetliste p{
+    .produkterfremhevetliste h4{
         text-decoration: none;
         color: #000;
         font-size:2.005vw;
@@ -1824,7 +1839,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         flex-direction: column;
     }
 
-    .produkttekstli li h2{
+    .produkttekstli li h1{
         font-size: 3.125vw;
         margin-left: 0px;
     }

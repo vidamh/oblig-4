@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Analyse</title>
+    <title>Analyse av dinskobutikk sine nettsider</title>
 </head>
 <body>
     <div id="grid-container">
@@ -53,7 +53,8 @@
                             <form class="søkebaren">
                                 <section class="søkebarikoner">
                                     <i class="glyphicon glyphicon-search"></i>
-                                    <input type="text" class="input-field" placeholder="Søk produkter her">
+                                    <label for="input-field-"></label>
+                                    <input type="search" id="input-field" placeholder="Søk produkter her">
                                 </section>
                             </form>
                         </li>
@@ -286,6 +287,7 @@
                                 <th>Webaim</th>
                                 <th>Lighthouse</th>
                                 <th>ChatGPT</th>
+                                <th>Felles</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -293,20 +295,48 @@
                                 <td>SEO</td>
                                 <td>Ingenting</td>
                                 <td>Meta description, ha passende størrelse på tap targets</td>
-                                <td>Meta tags, internal links, structured data og beskrivende title-tags</td>
+                                <td>Meta tags, internal anchor links, structured data og beskrivende title-tags</td>
+                                <td>Meta description/tags</td>
                             </tr>
                             <tr class="active-row">
                                 <td>UU</td>
-                                <td>Ha nok kontrast for økt lesbarhet, mangler form label, tomme eller repetive links, tomme knapper, manglende h1 og mulige headers.</td>
+                                <td>Ha nok kontrast for økt lesbarhet, mangler form label, tomme eller repetive links, <br>
+                                    tomme knapper, manglende h1 og mulige headers.
+                                </td>
                                 <td>Ha passende størrelse på tap targets</td>
-                                <td>Unngå inline styling, repetive eller tomme linker, tomme knapper, god html-struktur, knapper med god brukervennlighet/som øker brukerinteraktivitet og brukeropplevelsen.</td>
+                                <td>Unngå inline styling, repetive eller tomme linker, tomme knapper, god html-struktur, <br>
+                                    knapper med god brukervennlighet/som øker brukerinteraktivitet og brukeropplevelsen.
+                                </td>
+                                <td>Tomme knapper, repetetive eller tomme linker</td>
                             </tr>
                         </tbody>
                     </table>
                 </section>
             </section>
             <section id="forbedring">
-                <h1>Forbedrende tiltak etter analyser</h1>
+                <h1>Forbedrende tiltak og nye analyser</h1>
+                <section id="oppdatertesider">
+                    <h2>
+                        Oppdaterte sider etter forbedrende tiltak
+                    </h2>
+                    <ul id="listeoppdatertesider">
+                        <li>
+                            <h3>Forside</h3>
+                            <p>...</p>
+                            <img src="img_analyse/forsidemobileseo.png" alt="Skjermbilde av oppdatert forside">
+                        </li>
+                        <li>
+                            <h3>Produktresultater</h3>
+                            <p>...</p>
+                            <img src="img_analyse/forsidemobileseo.png" alt="Skjermbilde av oppdatert produktresultatside">
+                        </li>
+                        <li>
+                            <h3>Produktside</h3>
+                            <p>...</p>
+                            <img src="img_analyse/forsidemobileseo.png" alt="Skjermbilde av oppdatert produktside">
+                        </li>
+                    </ul>
+                </section>
                 <section id="Lighthouse">
                     <h2>
                         SEO analyse ved bruk av Lighthouse
