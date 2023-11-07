@@ -1761,7 +1761,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         margin: 0px 0.625vw;
     }
 
-    .sideknapper p{
+    .sideknapper h4{
         font-size: 1.875vw;
         margin: 0px 0.625vw;
     }
@@ -1861,6 +1861,10 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         margin-left: 0px;
     }
     
+    #desktoptekst{
+        font-weight: 400;
+    }
+
     #pris{
         font-size: 3.125vw;
     }
