@@ -1107,6 +1107,18 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         padding: 0.535vw 5.348vw 0.535vw 1.070vw;
     }
 
+    .input{
+        width: 100%;
+        padding: 0.535vw;
+        text-align: left;
+        margin-bottom: 3px;
+        border-radius: 2.674vw;
+        font-size: 1.070vw;
+        font-weight: 400;
+        padding: 0.535vw 5.348vw 0.535vw 1.070vw;
+        position: absolute;
+    }
+
     .meny ul{
         display: flex;
         gap: 0.5rem;
