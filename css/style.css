@@ -964,7 +964,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
     margin: 25px 0;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
+    width: fit-content;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -981,10 +981,11 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
 
 .tabell-sammenligning tbody tr {
     border-bottom: 1px solid #dddddd;
+    background-color: #fff;
 }
 
 .tabell-sammenligning tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #f5f9ff;
 }
 
 .tabell-sammenligning tbody tr:last-of-type {
@@ -996,6 +997,42 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
     color: #5190ca;
 }
 
+/* analyse side */
+#analyse{
+        display: grid;
+        grid-area: main;
+        justify-content: center;
+        grid-column: 1/-1;
+        overflow: hidden;
+        background-color: var(--lysegrå);
+        padding: 20px;
+    }
+
+#analyse section{
+    padding: 20px 0px;
+}    
+
+#analysefooter{
+    display: grid;
+    grid-area: footer;
+    justify-content: center;
+    grid-column: 1/-1;
+    overflow: hidden;
+    background-color: var(--lyseblå);
+    padding: 10px;
+}
+
+#intro{
+    overflow: hidden;
+}
+
+#forbedring{
+    overflow: hidden;
+}
+
+#Del3-tilgjengelighet{
+    overflow: hidden;
+}
 
 
 /* Desktop styles */
@@ -2269,4 +2306,23 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         float: left;
     }
 
+    /* analyse side */
+    #analyse{
+        display: grid;
+        grid-area: main;
+        justify-content: center;
+        grid-column: 1/-1;
+        overflow: hidden;
+        background-color: var(--lysegrå);
     }
+
+    #analysefooter{
+        display: grid;
+        grid-area: footer;
+        justify-content: center;
+        grid-column: 1/-1;
+        overflow: hidden;
+        background-color: var(--lyseblå);
+    }
+
+}
