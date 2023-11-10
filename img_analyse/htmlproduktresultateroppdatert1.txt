@@ -15,7 +15,6 @@
 <body>
     <div id="grid-container-produktresultater">
         <header class="hovedmeny">
-            <a href="#produktresultater" class="skip">Gå til hovedinnholdet</a>
             <nav class="meny">
                 <section class="venstre">
                     <aside class="hamburgermeny">

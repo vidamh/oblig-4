@@ -16,7 +16,6 @@
     <div id="grid-container">
         <!-- Menyen -->
         <header class="hovedmeny">
-            <a href="#forside" class="skip">Gå til hovedinnholdet</a>
             <nav class="meny">
                 <section class="venstre">
                     <aside class="hamburgermeny">

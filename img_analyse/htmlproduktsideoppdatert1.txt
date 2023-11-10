@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dinskobutikk - Skobutikken med noe for alle! Vi tilbyr et bredt utvalg av skotyper, populære merker og både mannesko, damesko og barnesko. Er du på utkikk etter sneakers eller loafers, boots eller vintersko, eller andre skotyper? Velkommen til Dinskobutikk, for vi har definitivt noe for deg!">
+    <meta name="description" content="Sporty sneakers for kvinner fra Dinskobutikk! Praesent tilbyr en smaklig kombinasjon av rødt, hvitt og svart, og anses som noen av de beste joggeskoene på markedet. Pris: 2000kr, Farge: Hvit - Handle nå hos Dinskobutikk!">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,400;1,500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Dinskobutikk - Skobutikken med noe for alle!</title>
+    <title>Praesent - Sporty sneakers fra Dinskobutikk</title>
 </head>
 <body>
-    <div id="grid-container">
-        <!-- Menyen -->
+    <div id="grid-container-produktside">
         <header class="hovedmeny">
-            <a href="#forside" class="skip">Gå til hovedinnholdet</a>
             <nav class="meny">
                 <section class="venstre">
                     <aside class="hamburgermeny">
@@ -69,71 +67,86 @@
                 </section>
             </nav>
         </header>
-        <!-- Selve forsiden -->
-        <main id="forside">
-            <!-- Del 1 av forsiden -->
-            <section id="forside-banner">
-                <section id="containerforside1">
-                    <section id="circlecontainer">
-                        <article id="circle">
-                            <h1>Klar for høsten?</h1>
-                            <p>Nam placerat<br>malesuada lorem,<br>sed euismod eros<br> facilisis at.</p> 
-                        </article>
-                    </section>
-                    <section class="containerbilde">
-                        <img src="img/høst_kvinne.jpg" alt="Autumn woman">
-                        <span class="sentrerttoppbilde">
-                            <span id="høstkolleksjon">Se høstkolleksjonen 2023!</span>
-                        </span>
-                        <span class="sentrertbunnknapp">
-                            <a href="#" class="kategori-btn" style="color: #1d4db3">Utforsk her</a>
-                        </span>
-                        <span class="sidepiler">
-                            <button class="sidepil-venstre" aria-label="Sidepil til venstre">
-                                <i class="glyphicon glyphicon-chevron-left"></i>
-                            </button>
-                            <button class="sidepil-høyre" aria-label="Sidepil til høyre">
-                                <i class="glyphicon glyphicon-chevron-right"></i>
-                            </button>
-                        </span>
-                    </section>
-                </section>
-            </section>
-            <!-- Del 2 av forsiden -->
-            <section id="forside-skokategorier">
-                <h2>Noe for alle</h2>
-                <ul class="kategorier">
-                    <li>
-                        <article id="kvinnekategori">
-                            <img src="img/kvinne2.jpg" alt="Image category for women">
-                            <h3>
-                                <a href="produktresultater.html" class="kategori-btn" style="color: #fff">Kvinner</a>
-                            </h3>
-                        </article>
-                    </li>
-                    <li>
-                        <article id="mannekategori">
-                            <img src="img/mann.jpg" alt="Image category for men">
-                            <h3>
-                                <a href="produktresultater.html" class="kategori-btn" style="color: #fff">Menn</a>
-                            </h3>
-                        </article>
-                    </li>
-                    <li>
-                        <article id="barnekategori">
-                            <img src="img/barn.jpg" alt="Image category for children">
-                            <h3>
-                                <a href="produktresultater.html" class="kategori-btn" style="color: #fff">Barn</a>
-                            </h3>
-                        </article>
-                    </li>
+        <main id="produktside">
+            <nav class="sideinformasjon">
+                <ul class="her_er_du">
+                    <li><a href="index.html" class="navigasjon-btn" aria-label="Hjem">Hjem -</a></li>
+                    <li><a href="produktresultater.html" class="navigasjon-btn" aria-label="Sko">Sko -</a></li>
+                    <li><a href="produktresultater.html" class="navigasjon-btn" aria-label="Dame">Dame -</a></li>
+                    <li><a href="produkt.html" class="navigasjon-btn" aria-label="Praesent">Praesent</a></li>
                 </ul>
+            </nav>
+            <section id="produkt">
+                <section id="produktcontainer">
+                    <section id="produktinfo">
+                        <section class="produktbilde_ikoner">
+                            <img src="img/sneakers_merke.jpg" alt="Product image for sneakers">
+                            <span class="sidepiler">
+                                <button class="sidepil-venstre" aria-label="Sidepil til venstre">
+                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                </button>
+                                <button class="sidepil-høyre" aria-label="Sidepil til høyre">
+                                    <i class="glyphicon glyphicon-chevron-right"></i>
+                                </button>
+                            </span>
+                            <span class="hjerte">
+                                <button class="favorittprodukt" aria-label="Legg til i favoritter">
+                                    <i class="glyphicon glyphicon-heart"></i>
+                                </button>
+                            </span>
+                        </section>
+                        <section class="detaljer-anmeldelser-desktop">
+                            <ul class="detaljer-anmeldelser-li">
+                                <li class="dytt1"><button class="drop-down-btn" aria-label="Produktdetaljer">Produktdetaljer <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                                <li class="dytt2"><button class="drop-down-btn" aria-label="Anmeldelser">Anmeldelser <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section class="produktvalg">
+                        <section class="produkttekst">
+                            <ul class="produkttekstli">
+                                <li><h1>Praesent</h1></li>
+                                <li id="desktopinfo"><h2 id="desktoptekst">Aliquam ut turpis varius, efficitur justo a</h2></li>
+                                <li><h2 id="pris">2000,-</h2></li>
+                            </ul>
+                        </section>
+                        <section class="fargevalg">
+                            <ul id="fargeprodukt">
+                                <li class="fargeknapp"><button id="farge">Farge: Hvit</button></li>
+                            </ul>
+                            <ul class="fargevalgli">
+                                <li class="valg"><button class="farge-btn" aria-label="Farge 1"><i class="fa fa-check-circle"></i></button></li>
+                                <li class="valg"><button class="farge-btn" aria-label="Farge 2"></button></li>
+                                <li class="valg"><button class="farge-btn" aria-label="Farge 3"></button></li>
+                            </ul>
+                        </section>
+                        <section class="andrevalgprodukt">
+                            <ul class="andrevalgli">
+                                <li class="dytt1"><button class="drop-down-btn" aria-label="Velg størrelse">Størrelse <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                                <li><button class="handlekurv-btn" aria-label="Legg til i handlekurv">Legg til i kurv<i class="glyphicon glyphicon-shopping-cart"></i></button></li>
+                                <li><button class="favoritt-btn" id="favoritterdesktop" aria-label="Lagre i favoritter">Lagre i favoritter<i class="glyphicon glyphicon-heart"></i></button></li>
+                                <li><button class="tilgjengelighet">Tilgjengelighet:<i class="glyphicon glyphicon-ok"></i></button></li>
+                            </ul>
+                        </section>
+                        <section class="fraktdetaljer">
+                            <ul class="frakt">
+                                <li><h3>Leveres innen 2 - 3 arbeidsdager</h3></li>
+                                <li><a href="#" class="frakt-info">Les mer om frakt, retur og bytte her</a></li>
+                            </ul>
+                        </section>
+                        <section class="detaljer-anmeldelser">
+                            <ul class="detaljer-anmeldelser-li">
+                                <li><button class="drop-down-btn" aria-label="Produktdetaljer">Produktdetaljer <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                                <li class="dytt2"><button class="drop-down-btn" aria-label="Anmeldelser">Anmeldelser <i class="glyphicon glyphicon-chevron-down"></i></button></li>
+                            </ul>
+                        </section>
+                    </section>
+                </section>    
             </section>
         </main>
         <footer class="fremhev-produkt">
-            <!-- Del 3.1 av forsiden -->
             <section class="fremhevede-produkter">
-                <h2>Populære produkter</h2>
+                <h2>Lignende produkter</h2>
                 <ul class="produkterfremhevetliste">
                     <li class="førsteprodukt">
                         <article class="selveprodukt1">
@@ -163,22 +176,19 @@
                         </article>
                     </li>
                 </ul>
-                <section class="sidepiler-produkter">
-                    <span class="sidepiler-til-venstre">
+                <section class="sidepiler">
+                    <span class="sidepiler-produkter">
                         <button class="sidepil-venstre"  title="Sidepil til venstre" aria-label="Sidepil til venstre">
                             <i class="glyphicon glyphicon-chevron-left"></i>
                         </button>
-                    </span>
-                    <span class="sidepiler-til-høyre">
                         <button class="sidepil-høyre"  title="Sidepil til høyre" aria-label="Sidepil til høyre">
                             <i class="glyphicon glyphicon-chevron-right"></i>
                         </button>
                     </span>
                 </section>
             </section>
-            <!-- Del 3.2 av forsiden -->
             <section class="fremhevede-produkter">
-                <h2>Nye produkter</h2>
+                <h2>Anbefalte produkter</h2>
                 <ul class="produkterfremhevetliste">
                     <li class="førsteprodukt">
                         <article class="selveprodukt1">
@@ -208,14 +218,16 @@
                         </article>
                     </li>
                 </ul>
-                <span class="sidepiler">
-                    <button class="sidepil-venstre" title="Sidepil til venstre" aria-label="Sidepil til venstre">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                    </button>
-                    <button class="sidepil-høyre" title="Sidepil til høyre" aria-label="Sidepil til høyre">
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </span>
+                <section class="sidepiler">
+                    <span class="sidepiler-produkter">
+                        <button class="sidepil-venstre" title="Sidepil til venstre" aria-label="Sidepil til venstre">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                        </button>
+                        <button class="sidepil-høyre" title="Sidepil til høyre" aria-label="Sidepil til høyre">
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </span>
+                </section>
             </section>
         </footer>
     </div>
