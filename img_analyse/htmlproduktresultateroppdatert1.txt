@@ -54,7 +54,7 @@
                                 <section class="søkebarikoner">
                                     <i class="glyphicon glyphicon-search"></i>
                                     <label for="input-field" class="input">Søk produkter her</label>
-                                    <input type="search" id="input-field" aria-label="Søk produkter her">
+                                    <input type="search" id="input-field" aria-label="Søk produkter her" placeholder="Søk produkter her">
                                 </section>
                             </form>
                         </li>

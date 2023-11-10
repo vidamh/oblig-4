@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sporty sneakers for kvinner fra Dinskobutikk! Praesent tilbyr en smaklig kombinasjon av rødt, hvitt og svart, og anses som noen av de beste joggeskoene på markedet. Pris: 2000kr, Farge: Hvit - Handle nå hos Dinskobutikk!">
+    <meta name="author" content="Vida Madelen Hansen">
+    <!--- Facebook og Instagram metadata -->
+    <meta property="og:title" content="Sporty sneakers fra Dinskobutikk!">
+    <meta property="og:url" content="https://itstud.hiof.no/~vidamh/oblig-4/produkt.html">
+    <meta property="og:description" content="Kule sneakers for kvinner fra Dinskobutikk!">
+    <meta property="og:image" content="img/sneakers_merke.jpg">
+    <meta property="og: site_name" content="Dinskobutikk.no">
+    <!-- Slutt -->
+    <!-- Twitter metadata -->
+    <meta name=”twitter:title” content="Sporty sneakers fra DinskobutikK!">
+    <meta name=”twitter:description” content="Kule sneakers for kvinner fra Dinskobutikk!">
+    <meta name=”twitter:image” content="img/sneakers_merke.jpg">
+    <!-- Slutt -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +68,7 @@
                                 <section class="søkebarikoner">
                                     <i class="glyphicon glyphicon-search"></i>
                                     <label for="input-field" class="input">Søk produkter her</label>
-                                    <input type="search" id="input-field" aria-label="Søk produkter her">
+                                    <input type="search" id="input-field" aria-label="Søk produkter her" placeholder="Søk produkter her">
                                 </section>
                             </form>
                         </li>
@@ -68,20 +81,40 @@
                 </section>
             </nav>
         </header>
-        <main id="produktside">
+        <main id="produktside" itemscope itemtype="https://schema.org/Product">
             <nav class="sideinformasjon">
-                <ul class="her_er_du">
-                    <li><a href="index.html" class="navigasjon-btn" aria-label="Hjem">Hjem -</a></li>
-                    <li><a href="produktresultater.html" class="navigasjon-btn" aria-label="Sko">Sko -</a></li>
-                    <li><a href="produktresultater.html" class="navigasjon-btn" aria-label="Dame">Dame -</a></li>
-                    <li><a href="produkt.html" class="navigasjon-btn" aria-label="Praesent">Praesent</a></li>
+                <ul class="her_er_du" itemscope itemtype="https://schema.org/BreadcrumbList">
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a href="index.html" class="navigasjon-btn" aria-label="Hjem" itemprop="item">
+                            <span itemprop="name">Hjem -</span>
+                        </a>
+                        <meta itemprop="position" content="1" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a href="produktresultater.html" class="navigasjon-btn" aria-label="Sko" itemprop="item">
+                            <span itemprop="name">Sko -</span>
+                        </a>
+                        <meta itemprop="position" content="2" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a href="produktresultater.html" class="navigasjon-btn" aria-label="Dame" itemprop="item">
+                            <span itemprop="name">Dame -</span>
+                        </a>
+                        <meta itemprop="position" content="3" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a href="produkt.html" class="navigasjon-btn" aria-label="Praesent" itemprop="item">
+                            <span itemprop="name">Praesent</span>
+                        </a>
+                        <meta itemprop="position" content="4" />
+                    </li>
                 </ul>
             </nav>
             <section id="produkt">
                 <section id="produktcontainer">
                     <section id="produktinfo">
                         <section class="produktbilde_ikoner">
-                            <img src="img/sneakers_merke.jpg" alt="Product image for sneakers">
+                            <img src="img/sneakers_merke.jpg" alt="Praesent - sporty sneakers" itemprop="image">
                             <span class="sidepiler">
                                 <button class="sidepil-venstre" aria-label="Sidepil til venstre">
                                     <i class="glyphicon glyphicon-chevron-left"></i>
@@ -106,9 +139,16 @@
                     <section class="produktvalg">
                         <section class="produkttekst">
                             <ul class="produkttekstli">
-                                <li><h1>Praesent</h1></li>
-                                <li id="desktopinfo"><h2 id="desktoptekst">Aliquam ut turpis varius, efficitur justo a</h2></li>
-                                <li><h2 id="pris">2000,-</h2></li>
+                                <li><h1 itemprop="name">Praesent</h1></li>
+                                <li id="desktopinfo"><h2 id="desktoptekst" itemprop="description">Aliquam ut turpis varius, efficitur justo a</h2></li>
+                                <li>
+                                    <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                                        <meta itemprop="priceCurrency" content="NOK"/>
+                                        <span itemprop="price" content="2000">
+                                            <h2 id="pris" >2000,-</h2>
+                                        </span>
+                                    </span>
+                                </li>
                             </ul>
                         </section>
                         <section class="fargevalg">
