@@ -33,7 +33,7 @@
                 <section class="venstre">
                     <aside class="hamburgermeny">
                         <ul>
-                            <li aria-haspopup="true" aria-expanded="false">
+                            <li>
                                 <i class="glyphicon glyphicon-menu-hamburger" aria-label="Hamburgermeny"></i>
                             </li>
                         </ul>

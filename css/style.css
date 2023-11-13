@@ -997,7 +997,6 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
     color: #5190ca;
 }
 
-/* analyse side */
 #analyse{
         display: grid;
         grid-area: main;
@@ -1006,6 +1005,7 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
         overflow: hidden;
         background-color: var(--lysegrå);
         padding: 20px;
+        list-style: none;
     }
 
 #analyse section{
@@ -1035,6 +1035,9 @@ https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l */
     overflow: hidden;
 }
 
+#Meta-htmlsidene{
+    list-style: none;
+}
 
 /* Desktop styles */
 

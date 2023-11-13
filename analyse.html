@@ -21,7 +21,7 @@
                 <section class="venstre">
                     <aside class="hamburgermeny">
                         <ul>
-                            <li>
+                            <li aria-haspopup="true">
                                 <i class="glyphicon glyphicon-menu-hamburger" aria-label="Hamburgermeny"></i>
                             </li>
                         </ul>
@@ -527,21 +527,68 @@
                 <section id="skjermleserkompabilitet">
                     <h2>Skjermleserkompabilitet og utfordringer</h2>
                     <p>
-                        Etter å ha testet alle nettsidene syntes jeg at de har grei, men ikke optimal skjermleserkompabilitet. <br>
-                        Noen utfordringer jeg hadde var når skjermleseren skulle lese opp produkter/produktlinker hvor det er <br>
-                        et produktbilde, produktnavn og pris. Dette hadde jeg på alle sidene mine, som i forsidens nye og populære produkter, <br>
-                        produktresultatsidens resultater på produkter, og produktsidens anbefalte og lignende produkter. Her var det smålig forvirrende <br>
-                        når skjermleseren leste opp innholdet, mest på grunn av at den leste for fort og "smeltet" sammen ordene sine. <br>
-                        På forsiden opplevde jeg noen problemer med at skjermleseren ikke leste alle elementene mine, for eksempel handlekurv, favorittknapp, <br>
-                        min konto og hamburgermenyen ble ikke lest opp av skjermleseren. Videre ble verken headerene på forsiden eller produktsiden lest opp. <br>
-                        Dette gjorde at det var forvirrende å vite hvor på sidene man var. Dette skjedde av en eller annen grunn ikke på produktresultatsidene. <br>
-                        På produktresultatsidene var det største problemet at produktene ble lest opp sånn som tidligere nevnt. Dette drar ned brukeropplevelsen og UU.
+                        Etter å ha grundig testet alle nettsidene er konklusjonen at nettsiden har en akseptabel, men ikke optimal tilgjengelighet for skjermlesere. <br>
+                        Utfordringene startet når skjermleseren skulle lese opp produkter og produktlenker, spesielt når det var et produktbilde, produktnavn og pris involvert. <br>
+                        Dette var gjennomgående på alle tre sidene, inkludert forsiden med nye og populære produkter, produktresultatsidens resultater, og produktsidens anbefalte produkter. <br>
+                        Problemet lå i at skjermleseren leste opp innholdet for raskt, noe som resulterte i at ordene "smeltet" sammen og skapte forvirring. <br>
+                        I tillegg var noen av alt-tagene skrevet på engelsk og ikke norsk, så det ble lest opp en blanding av norsk og engelsk tekst til tider. <br>
+                        På forsiden leste heller ikke skjermleseren opp alle elementene, som for eksempel handlekurven, favorittknappen, min konto og hamburgermenyen. <br>
+                        Videre ble verken headerne på forsiden eller produktsiden lest opp, og dette førte til at det var forvirrende å orientere seg på sidene. <br>
+                        Overraskende nok skjedde ikke dette på produktresultatsidene. På denne siden var det største problemet måten produktene ble lest opp på, som tidligere beskrevet. <br>
+                        Dette har en betydelig negativ innvirkning på både brukeropplevelsen og UU. For å sikre en optimal brukeropplevelse er det avgjørende at nettsiden er <br>
+                        enkel å navigere og forstå, både for de som bruker skjermleser og de som ikke gjør det. En velutviklet nettside bør være tilgjengelig for et <br>
+                        bredt spekter av brukere og dekke flest mulig av brukernes behov. Om jeg skulle gjort noe videre tiltak for å forbedre ville jeg spesielt prioritert <br>
+                        å endre alle alt-tags og tekst til samme språk, da dette skapte flesteparten av utfordringene.
                     </p>
+                </section>
+                <section id="tastaturnavigasjon">
+                    <h2>Tastaturnavigasjon og skip-link til hovedinnhold</h2>
+                    <p>
+                        Alle nettsidene mine kan navigeres gjennom tastatur. Jeg endte opp med å rette på en del av produktresultatsiden som ikke kunne trykkes på originalt. <br>
+                        På produktresultatsiden lot jeg merke til at sidepil-knappene nederst på siden, som skulle trykkes på for å gå frem og tilbake for å se flere resultater, ikke var en knapp eller link. <br>
+                        Derfor wrappet jeg sidepil-ikonene i en a href link, så dersom siden var funksjonell ville de sendt brukeren til neste produktresultatside. <br>
+                        Annet enn dette støtte jeg ikke på noen utfordringer. Etter dette la jeg til en skip-link i toppen av header som er gjemt, så om man trykker <br>
+                        på tab-knappen en gang og trykker enter, blir man sendt direkte til main. HTML-koden for dette fant jeg fra W3schools: https://www.w3schools.com/accessibility/accessibility_skip_links.php
+                    </p>
+                    <h3>Fiks på sidepil-knapper på produktresultater</h3>
+                    <img src="img_analyse/sidepilknapperproduktresultater.png" alt="HTML-kode for produktresultaters sidepil-knapper">
+                    <h3>HTML-kode for skip-link til main - lik for alle sider</h3>
+                    <img src="img_analyse/html-kode_skip-link.png" alt="HTML-kode for skip-link til hovedinnhold">
+                </section>
+            </section>
+            <section id="Del4-Microdata/Del5-Meta">
+                <h1>Del 4 - Microdata og Del 5 - Meta og SOME</h1>
+                <section id="del4">
+                    <h2>Microdata på produktsiden</h2>
+                    <p>Jeg har lagt til hva jeg syntes var passende microdata på produktsiden. Jeg har lagt til microdata om offers, bilde, description, brødsmule-navigering, og alt som er påkrevd for produkt-microdata.</p>
+                    <img src="img_analyse/richresults_produktside.png" alt="Resultater fra Rich Results for produktside">
+                    <iframe src="img_analyse/microdataproduktside.txt"></iframe>
+                </section>
+                <section id="del5">
+                    <h2>Del 5 - Meta og SOME</h2>
+                    <p>
+                        Jeg har lagt til Meta-data for Facebook/Instagram og Twitter som jeg syntes var relevant og testet disse ut ved å sende linkene til meg selv på FB og IG. De funket bra. <br>
+                        Del 5 sier også at man skal oppdatere titteltagsene og legge til meta-descriptions med relevante søkeord, noe jeg allerede har gjort tidligere i oppgaven.
+                    </p>
+                    <ul id="Meta-htmlsidene">
+                        <li>
+                            <h3>Meta for forsiden</h3>
+                            <iframe src="img_analyse/metaforforside.txt"></iframe>
+                        </li>
+                        <li>
+                            <h3>Meta for produktresultatside</h3>
+                            <iframe src="img_analyse/metaforproduktresultater.txt"></iframe>
+                        </li>
+                        <li>
+                            <h3>Meta for produktside</h3>
+                            <iframe src="img_analyse/metaforproduktside.txt"></iframe>
+                        </li>
+                    </ul>
                 </section>
             </section>
         </main>
         <footer id="analysefooter">
-            <h1>Laget for Oblig 4 av Webutvikling 2023, Vida Madelen Hansen</h1>
+            <h1>Laget for Oblig 4 av Webutvikling 2023, av Vida Madelen Hansen</h1>
         </footer>
     </div>
 </body>

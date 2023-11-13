@@ -10,7 +10,7 @@
     <meta property="og:url" content="https://itstud.hiof.no/~vidamh/oblig-4/produktresultater.html">
     <meta property="og:description" content="Damesko av alle typer fra Dinskobutikk!">
     <meta property="og:image" content="img/kvinne2.jpg">
-    <meta property="og: site_name" content="Dinskobutikk.no">
+    <meta property="og:site_name" content="Dinskobutikk.no">
     <!-- Slutt -->
     <!-- Twitter metadata -->
     <meta name=”twitter:title” content="Se alle våre damesko her! - Damesko fra Dinskobutikk">
@@ -33,7 +33,7 @@
                 <section class="venstre">
                     <aside class="hamburgermeny">
                         <ul>
-                            <li>
+                            <li aria-haspopup="true" aria-expanded="false">
                                 <i class="glyphicon glyphicon-menu-hamburger" aria-label="Hamburgermeny"></i>
                             </li>
                         </ul>
@@ -335,12 +335,16 @@
             </section>
             <section id="flere-produkter-desktop">
                 <nav class="sideknapper">
-                    <i class="glyphicon glyphicon-arrow-left" aria-label="Gå en side tilbake"></i>
+                    <a href="#" style="color: black;" aria-label="Gå en side tilbake">
+                        <i class="glyphicon glyphicon-arrow-left" aria-label="Gå en side tilbake"></i>
+                    </a>
                     <a href="#">1</a>
                     <a href="#">2</a>
                     <a href="#">3</a>
                     <h4>...</h4>
-                    <i class="glyphicon glyphicon-arrow-right" aria-label="Gå en side frem"></i>
+                    <a href="#" style="color: black;" aria-label="Gå en side tilbake">
+                        <i class="glyphicon glyphicon-arrow-right" aria-label="Gå en side frem"></i>
+                    </a>
                     <h3 id="sidex">Side x av x</h3>
                 </nav>
             </section>
